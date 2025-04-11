@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - web player:music for everyone</title>
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+
+        <div class="sidebar">
+
+            <div class="nav">
+                <div class="navoption" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="navoption">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="option">
+                    <div class="library_op navoption">
+                        <img src="library_icon.png" >
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <p class="boxp1">Create your first playlist</p>
+                    <p class="boxp2">Its easy we'll help you</p>
+                    <button class="badge">Create playlist</button>  
+                </div>
+                <div class="boxes">
+                    <p class="boxp1">Let's find some podcasts to follow</p>
+                    <p class="boxp2">We'll keep you updated on new episodes</p>
+                    <button class="badge">Browse podcasts</button>  
+                </div>
+            </div>
+
+        </div>
+
+        <div class="maincontent">
+
+            <div class="stickynav">
+                <div class="navicons">
+                    <img src="backward_icon.png">
+                    <img src="forward_icon.png" class="hide">
+                </div>
+                <div class="download">
+                    <button class="navitem badge hide">Explore Premium</button>
+                    <button class="navitem badge darkbadge"><i class="fa-regular fa-circle-down" style="margin-right: 0.5rem;"></i>
+                        Install App
+                    </button>
+                    <i class="fa-regular fa-user navitem"></i>
+                </div>
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="cardcontainer">
+                <div class="card">
+                    <img src="card1img.jpeg" class="cardimg">
+                    <p class="cardtitle">Top 50-global</p>
+                    <p class="cardinfo">Your daily updates of the most played tracks right...</p>
+                </div>
+            </div>
+            <h2>Trending now near you</h2>
+            <div class="cardcontainer">
+                <div class="card">
+                    <img src="card2img.jpeg" class="cardimg">
+                    <p class="cardtitle">mahiye jinna sona</p>
+                    <p class="cardinfo">Darshan Rawal </p>
+                </div>
+                <div class="card">
+                    <img src="card3img.jpeg" class="cardimg">
+                    <p class="cardtitle">Raanjahn (From "Do Patti")</p>
+                    <p class="cardinfo">Sachet , Parampara</p>
+                </div>
+                <div class="card">
+                    <img src="card4img.jpeg" class="cardimg">
+                    <p class="cardtitle">Jhol</p>
+                    <p class="cardinfo">Maanu , Annural Khalid</p>
+                </div>
+                <div class="card">
+                    <img src="card5img.jpeg" class="cardimg">
+                    <p class="cardtitle">Chal</p>
+                    <p class="cardinfo">Dabzee,Rishi Roy,Fathima Jahaan</p>
+                </div>
+                <div class="card">
+                    <img src="card6img.jpeg" class="cardimg">
+                    <p class="cardtitle">Tum Hi Ho</p>
+                    <p class="cardinfo">Mithun , Arijit Singh</p>
+                </div>
+            </div>
+            <h2>Featured Charts</h2>
+            <div class="cardcontainer">
+                <div class="card">
+                    <img src="card7img.jpeg" class="cardimg">
+                    <p class="cardtitle">Top 50-global</p>
+                    <p class="cardinfo">Your daily updates of the most played tracks right...</p>
+                </div>
+                <div class="card">
+                    <img src="card8img.jpeg" class="cardimg">
+                    <p class="cardtitle">Top 50-India</p>
+                    <p class="cardinfo">Your daily updates of the most played tracks right...</p>
+                </div>
+                <div class="card">
+                    <img src="card9img.jpeg" class="cardimg">
+                    <p class="cardtitle">Top 50-global</p>
+                    <p class="cardinfo">Your weekly updates of the most played tracks right...</p>
+                </div>
+                <div class="card">
+                    <img src="card10img.jpeg" class="cardimg">
+                    <p class="cardtitle">Top 50-India</p>
+                    <p class="cardinfo">Your weekly updates of the most played tracks right...</p>
+                </div>
+                
+            </div>
+                <h2>Popular Artist</h2>
+                <div class="circlecardcontainer">
+                    <div class="circlecard">
+                        <div class="circlecardimg">
+                            <img src="circle-card1.jpeg" class="circleimg">
+                        </div>
+                        <p class="cardtitle">Arijit Singh</p>
+                    </div>
+                    <div class="circlecard">
+                        <div class="circlecardimg">
+                            <img src="circle-card2.jpeg" class="circleimg">
+                        </div>
+                            <p class="cardtitle">Atif aslam</p>
+                    </div>
+                    <div class="circlecard">
+                        <div class="circlecardimg">
+                            <img src="circle-card3.jpeg" class="circleimg">
+                        </div>
+                            <p class="cardtitle">Shreya Ghoshal</p>
+                    </div>
+                    <div class="circlecard">
+                        <div class="circlecardimg">
+                            <img src="circle-card4.jpeg" class="circleimg">
+                        </div>
+                            <p class="cardtitle">AR Rahman</p>
+                    </div>
+                    <div class="circlecard">
+                        <div class="circlecardimg">
+                            <img src="circle-card5.jpeg" class="circleimg">
+                        </div>
+                            <p class="cardtitle">Pritam</p>
+                    </div>
+                    <div class="circlecard">
+                        <div class="circlecardimg">
+                            <img src="circle-card6.jpeg" class="circleimg">
+                        </div>
+                        <p class="cardtitle">Shankar Mahadevan</p>
+                    </div>
+                    <div class="circlecard">
+                        <div class="circlecardimg">
+                            <img src="circle-card7.jpeg" class="circleimg">
+                        </div>
+                        <p class="cardtitle">Diljeet Dosanjh</p>
+                    </div>
+                    <div class="circlecard">
+                        <div class="circlecardimg">
+                            <img src="circle-card8.jpeg" class="circleimg">
+                        </div>
+                        <p class="cardtitle">King</p>
+                    </div>
+                    <div class="circlecard">
+                        <div class="circlecardimg">
+                            <img src="circle-card9.jpeg" class="circleimg">
+                        </div>
+                        <p class="cardtitle">Sunidhi Chouhan</p>
+                    </div>
+                    <div class="circlecard">
+                        <div class="circlecardimg">
+                            <img src="circle-card10.jpeg" class="circleimg">
+                        </div>
+                        <p class="cardtitle">Yo Yo Honey Singh</p>
+                    </div>
+                </div>
+
+            <div class="navfooter">
+                
+                <div class="footer">
+                    <div class="footerbox">
+                        <ul id="bold">Company</ul>
+                            <ul id="anchor">About us</ul>
+                            <ul id="anchor">Jobs</ul>
+                            <ul id="anchor">For the Record</ul>                       
+                    </div>
+                    <div class="footerbox">
+                        <ul id="bold">Communities</ul>                       
+                            <ul id="anchor">For Artists</ul>
+                            <ul id="anchor">Developers</ul>
+                            <ul id="anchor">Advertising</ul>
+                            <ul id="anchor">Investors</ul>
+                            <ul id="anchor">Vendors</ul>                       
+                    </div>
+                    <div class="footerbox">
+                        <ul id="bold">UseFul Links</ul>
+                            <ul id="anchor">Support</ul>
+                            <ul id="anchor">Free Mobile App</ul>                      
+                    </div>
+                    <div class="footerbox">
+                        <ul id="bold">Spotify Plans</ul>
+                            <ul id="anchor">Premimum Imdividual</ul>
+                            <ul id="anchor">Premium Duo</ul>
+                            <ul id="anchor">Premiumum Family</ul>
+                            <ul id="anchor">Premium Student</ul>
+                            <ul id="anchor">Spotify Free</ul>                       
+                    </div>
+                    <div class="footerbox iconbox">
+                        <div class="iconcircle">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        
+                        <div class="iconcircle"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="iconcircle">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>   
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="copyright">
+                    <i class="fa-solid fa-copyright" style="opacity:0.5"></i>
+                    <p id="copy">2025 Spotify AB</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="musicplayer">
+            <div class="album"></div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="player_icon1.png" class="player-controls-icon">
+                    <img src="player_icon2.png" class="player-controls-icon">
+                    <img src="player_icon3.png" class="player-controls-icon" style="height: 2rem; opacity: 1;">
+                    <img src="player_icon4.png" class="player-controls-icon">
+                    <img src="player_icon5.png" class="player-controls-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="total-time">3:30</span>
+                </div>
+            </div>
+            <div class="control"></div>
+        </div>
+    </div>
+</body>
+</html>
